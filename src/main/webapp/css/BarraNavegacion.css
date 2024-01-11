@@ -1,0 +1,85 @@
+@charset "UTF-8";
+.texto {
+  font-size: 200%;
+  color: #414347;
+  font-family: myFirstFont;
+  position: relative;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(font/Bellefair-Regular.ttf);
+}
+
+.texto2{
+	font-family: myFirstFont;
+	position: relative;
+	font-size: 300%;
+}
+
+.shopping_cart{
+  height: 65px;
+  width: 33px;
+}
+
+.banner-image {
+        background-image: url('../images/wallpaper.jpg');
+        background-size: cover;
+      }
+.divisor-home
+{
+  margin: 5rem 0;
+  color: inherit;
+  border: 0;
+  border-top: #414347;
+  opacity: .25;
+  --bs-gutter-x: 1.5rem;
+}
+
+.inicio-img {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/proyecto1.jpeg);
+  width: 33rem;
+  height: 21rem;
+}
+.inicio-img-2 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/proyecto2.jpeg);
+  width: 33rem;
+  height: 21rem;
+}
+.inicio-img-3 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/proyecto3.jpeg);
+  width: 33rem;
+  height: 21rem;
+}
+.inicio-img-4 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/proyecto4.jpeg);
+  width: 384px;
+  height: 512px;
+}
+
+.order-md-2{
+  order: 2 !important;
+}
+
+.order-md-1{
+  order: 1 !important;
+}
+@media (min-width: 40em) {
+
+  .texto-heading-inicio {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .texto-heading-inicio {
+    margin-top: 7rem;
+  }
+}
